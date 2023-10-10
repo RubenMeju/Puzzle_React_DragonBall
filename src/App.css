@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgb(27, 27, 27);
+}
+h1 {
+  color: aliceblue;
+  font-size: 4rem;
+}
+/* tamaño para todas las imagenes*/
+.image {
+  width: 240px;
+  height: 140px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  /*background-color: brown;*/
+}
+.row1 .col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.row1 .col .select:hover,
+.row2 .image .select:hover {
+  border: 2px solid orange;
+  cursor: pointer;
+}
+
+.matriz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-color: blue;*/
+}
+.matriz .rows {
+  display: flex;
+}
+.matriz .rows .celda {
+  border: 1px solid gainsboro;
+}
+
+.row2 {
+  display: flex;
+  gap: 2rem;
+}
+
+.hover {
+  background-color: orange;
+}
